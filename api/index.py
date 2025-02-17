@@ -12,5 +12,5 @@ def about():
     return 'About'
 
 @app.route('/ddd')
-def about():
+def ddd():
     return f'vem importado - {titulo}'
