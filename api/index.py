@@ -1,4 +1,5 @@
 from flask import Flask
+from ddd import titulo
 
 app = Flask(__name__)
 
@@ -9,3 +10,7 @@ def home():
 @app.route('/about')
 def about():
     return 'About'
+
+@app.route('/ddd')
+def about():
+    return f'vem importado - {titulo}'
