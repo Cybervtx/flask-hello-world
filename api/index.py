@@ -1,5 +1,6 @@
 from flask import Flask
-from ddd import titulo
+
+titulo = 'Flask Vercel'
 
 app = Flask(__name__)
 
